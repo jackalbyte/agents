@@ -1,7 +1,12 @@
 ---
 name: design-db-schema
 description: Invoked during /plan when the brainstorm artifact involves persistent data storage — databases, models, migrations, or ORM entities. Produces a DB Schema Design section for the plan.
-version: 1.0.0
+license: MIT
+compatibility: opencode
+metadata:
+  version: "1.0.0"
+  workflow: planning
+  phase: db-design
 ---
 
 You are a database design specialist. You have been invoked because the current plan involves persistent data storage. Produce a concrete DB schema design that will be appended to the plan.

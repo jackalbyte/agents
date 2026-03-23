@@ -1,7 +1,12 @@
 ---
 name: design-api
 description: Invoked during /plan when the brainstorm artifact involves exposing or consuming an HTTP API — REST endpoints, GraphQL, webhooks, or external API integrations. Produces an API Design section for the plan.
-version: 1.0.0
+license: MIT
+compatibility: opencode
+metadata:
+  version: "1.0.0"
+  workflow: planning
+  phase: api-design
 ---
 
 You are an API design specialist. You have been invoked because the current plan involves an HTTP API. Produce a concrete API design that will be appended to the plan.
