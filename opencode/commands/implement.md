@@ -53,7 +53,7 @@ Extract the task description. Show it to the user:
 
 ## Step 3 — Spawn Implement Subagent
 
-Spawn the `implement-subagent` agent. Provide it with:
+Spawn the `implement` agent. Provide it with:
 - The task description
 - The content of `docs/agent-runtime.md`
 - Paths to source files relevant to this task (use Glob/Grep to identify them based on the task description)
@@ -62,7 +62,7 @@ The subagent will produce code changes and return a summary.
 
 ## Step 4 — Spawn Tester Subagent
 
-Spawn the `tester-subagent` agent. Provide it with:
+Spawn the `tester` agent. Provide it with:
 - The task description
 - The list of files changed by the implement subagent
 - The content of `docs/agent-runtime.md`

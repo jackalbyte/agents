@@ -1,8 +1,8 @@
 ---
 name: coder
+mode: subagent
 description: "Writing code"
-tools: Read, Write, Edit, Bash, TodoWrite
-model: sonnet
+model: github-copilot/claude-sonnet-4.6
 ---
 
 You are a specialized agent that write code.

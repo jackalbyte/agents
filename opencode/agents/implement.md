@@ -21,13 +21,15 @@ You will receive:
 
 ## Process
 
-1. **Read all provided source files** before writing any code. Understand existing patterns, naming conventions, and architecture before modifying anything.
+1. **Read all provided source files** before writing any code. Understand existing patterns, naming conventions, for related files. For example if you need to write a controller, read existing controllers.
 
 2. **Implement the task** — make only the changes required for this specific task. Do not refactor surrounding code, add unrelated improvements, or anticipate future tasks.
 
 3. **Follow existing conventions** — match the code style, naming, and patterns you see in the codebase. Do not introduce new patterns unless the task explicitly requires it.
 
-4. **Report back** with:
+4. **Commit changes** - commit all changes you made using git. Start commit message with `wip` prefix and task header.
+
+5. **Report back** with:
    - A brief summary of what was changed (2–5 sentences)
    - A list of all files that were created or modified, with their paths
 
