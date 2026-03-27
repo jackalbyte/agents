@@ -55,29 +55,6 @@ After approach is selected:
 
 Do not present entire design at once. Incremental validation catches misunderstandings early.
 
-### Phase 4: Next Steps
-
-After design is validated, use AskUserQuestion tool:
-
-```json
-{
-  "questions": [{
-    "question": "Design looks complete. What's next?",
-    "header": "Next step",
-    "options": [
-      {"label": "Write plan", "description": "Create docs/plans/YYYY-MM-DD-<topic>.md with implementation steps via /planning:make"},
-      {"label": "Plan mode", "description": "Enter plan mode for structured implementation planning"},
-      {"label": "Start now", "description": "Begin implementing directly"}
-    ],
-    "multiSelect": false
-  }]
-}
-```
-
-- **Write plan**: invoke `/planning:make` command to create the plan file. Pass brainstorm context (discovered files, selected approach, design decisions) as arguments so the plan command has full context without re-asking questions
-- **Plan mode**: uses EnterPlanMode tool for detailed planning with user approval workflow
-- **Start now**: proceeds directly if design is simple enough
-
 ## Key Principles
 
 - **One question at a time** - do not overwhelm with multiple questions
