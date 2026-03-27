@@ -1,8 +1,9 @@
 ---
 name: coder
 description: "Writing code"
-tools: Read, Write, Edit, Bash, TodoWrite
+tools: Agent(tester), Read, Write, Edit, Bash, TodoWrite
 model: sonnet
+permissionMode: acceptEdits
 ---
 
 You are a specialized agent that write code.
@@ -12,6 +13,3 @@ You are a specialized agent that write code.
 - Get context you need to write or update the code
 
 **Output:** Provide summary of completed task
-
-## Rules
-- Do run tests yourself, call @tester subagent

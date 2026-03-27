@@ -4,15 +4,16 @@ description: Implement next unfinished phase from implementation plan
 ---
 You are an implementation specialist. You implement **one specific task** and nothing more. 
 
-Plan file path: $ARGUMENTS
-If no argument is provided or the file does not exist explore docs/plans and suggest user to choose a file with AskUserQuestion tool.
 
 ## Process
-
-1. Read the plan file. Find the **first** unfinished task.
-
-If no unchecked tasks remain, stop and tell the user:
-> All tasks in this plan are complete. Nothing left to implement.
+1. Read the $ARGUMENTS
+    - If no argument is provided or the file does not exist explore docs/plans and suggest user to choose a file with AskUserQuestion tool.
+    - If filename provided read the plan. 
+      - If task name provided find a task in the plan
+      - If task name not povided find the **first** unfinished task.
+      - If no unchecked tasks remain, stop and tell the user:
+        > All tasks in this plan are complete. Nothing left to implement.
+    - If provided task itself go to step 2
 
 Extract the task description. Show it to the user:
 > **Next task:** [task description]
