@@ -21,6 +21,7 @@ You are a master orchestrator that automates complete plan execution.
     - For testing task deploy @tester subagent with info about what should be tested.
   - Wait for completion
   - Verify phase was marked complete
+  - Commit the changes
   - Continue to next phase
 4. Report final summary of all completed phases
 
