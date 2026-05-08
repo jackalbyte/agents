@@ -1,0 +1,11 @@
+{
+  "lastChangelogVersion": "0.73.0",
+  "defaultThinkingLevel": "medium",
+  "defaultProvider": "github-copilot",
+  "defaultModel": "gpt-5-mini",
+  "enabledModels": [
+    "github-copilot/claude-haiku-4.5",
+    "github-copilot/claude-sonnet-4.6"
+  ],
+  "hideThinkingBlock": false
+}
