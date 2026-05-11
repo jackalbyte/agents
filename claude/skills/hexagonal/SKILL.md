@@ -1,5 +1,5 @@
 ---
-description: Design, implement, and refactor Ports & Adapters systems with clear domain boundaries, dependency inversion, and testable use-case orchestration across TypeScript, Java, Kotlin, and Go services.
+description: Design, implement, refactor, and audit Ports & Adapters systems with clear domain boundaries, dependency inversion, and testable use-case orchestration across TypeScript, Java, Kotlin, and Go services. Use when asked to check, review, verify, or audit hexagonal architecture compliance.
 ---
 
 # Hexagonal Architecture

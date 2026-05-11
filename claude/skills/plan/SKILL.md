@@ -38,4 +38,4 @@ Every task in the plan must be **independently implementable with a fully green 
 Apply this rule to any change that can break existing code: renamed methods, changed return types, new required parameters, moved files, schema changes reflected in ORM entities, etc.
 
 ## Result
-Save the plan to `docs/plans/` folder.
+Save the plan to `docs/tasks/<task-name>/PLAN.md` folder.

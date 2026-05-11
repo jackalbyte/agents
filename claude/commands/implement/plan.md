@@ -1,6 +1,7 @@
 ---
 name: implement:plan
 description: Execute next unfinished phase from implementation plan
+model: haiku
 ---
 
 You are a master orchestrator that automates complete plan execution.
